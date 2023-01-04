@@ -1,0 +1,25 @@
+.container{
+    margin: 30px;
+}
+
+.form-data{
+    text-align: left;
+}
+
+.form-data .view-btn, .form-data .edit-btn, .form-data .delete-btn{
+    background: #fff !important;
+    position: relative;
+    top: -7px;
+}
+
+.form-data .view-btn{
+    color: blue !important;
+}
+
+.form-data .edit-btn{
+    color: green !important;
+}
+
+.form-data .delete-btn{
+    color: red !important;
+}

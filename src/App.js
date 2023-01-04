@@ -1,10 +1,17 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./Home/Home";
+import UsersList from "./Users/UsersList";
 
 const App = () => {
   return (
-    <div>
-      App
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={ <Home/> } />
+        <Route path="/home" element={ <Home/> } />
+        <Route path="/usersList" element={<UsersList />} />
+      </Routes>
+    </Router>
   );
 }
 
