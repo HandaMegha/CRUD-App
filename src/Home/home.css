@@ -1,12 +1,26 @@
 .bg {
   /* The image used */
-  background-image: url("../../public/img/background.jpg");
+  background-image: url("../../public/img/Background.png");
   
   /* Full height */
-  height: 800px; 
+  height: 750px; 
   
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.users-link{
+  position: relative;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  float: right;
+  padding: 2.5rem;
+  padding-right: 18rem;
+}
+
+.users-link:hover{
+  color: white;
 }
